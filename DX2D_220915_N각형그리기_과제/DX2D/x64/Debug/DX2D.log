@@ -1,0 +1,46 @@
+﻿  DX2D.cpp
+C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\DX2D\DX2D.cpp(136,22): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\DX2D\DX2D.cpp(137,23): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\DX2D\DX2D.cpp(197,33): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\DX2D\DX2D.cpp(201,60): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682,68): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(829): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int>(_Alloc &,_Objty *const ,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(840): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int>(_Alloc &,_Objty *const ,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int>(int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(822): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int>(int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int>(int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int>(int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\DX2D\DX2D.cpp(186): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::vector<Vertex,std::allocator<Vertex>>::emplace_back<int,int>(int &&,int &&)'에 대한 참조를 확인하세요.
+  DX2D.vcxproj -> C:\Users\USER\VisualStudio2022\Project\DX11\DX2D_220915_N각형그리기_과제\x64\Debug\DX2D.exe
