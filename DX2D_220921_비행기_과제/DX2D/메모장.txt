@@ -1,0 +1,7 @@
+4x4 행렬에 4x1(x,y,z,1)행렬을 곱해서 동차변환 시키는 과정
+
+https://bbungprogram.tistory.com/25
+World->View->Projection->NDC (동차변환)
+
+
+SRT에서는 Local위치와 Global위치가 따로 있다!
