@@ -1,0 +1,16 @@
+4x4 행렬에 4x1(x,y,z,1)행렬을 곱해서 동차변환 시키는 과정
+
+https://bbungprogram.tistory.com/25
+World->View->Projection->NDC (동차변환)
+
+
+SRT에서는 Local위치와 Global위치가 따로 있다!
+
+
+* Texture 출력 방법
+--> UVMapping을 이용
+- UV : 가로, 세로를 의미함
+- Mapping : 색종이를 오려서 붙이는 방식
+
+UV를 출력하려면 Texture 정보를 받고 SamplerState를 받음
+- SamplerState: 필터링, 
