@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\DX2D.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\PixelColor.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\PixelPos.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\PixelUV.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\Tutorial.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\VertexColor.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\VertexPos.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\USER\VisualStudio2022\Project\DX11_2D\DX2D_220926_몬스터잡기_과제\x64\Debug\VertexUV.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
