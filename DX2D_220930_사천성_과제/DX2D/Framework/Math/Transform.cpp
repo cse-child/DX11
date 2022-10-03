@@ -59,3 +59,8 @@ bool Transform::Active()
 		
 	return isActive;
 }
+
+void Transform::SetActive(bool isActive)
+{ 
+	this->isActive = isActive;
+}

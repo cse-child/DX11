@@ -7,6 +7,12 @@ private:
 	const float CARD_SCALE = 0.5f;
 	const UINT SHUFFLE = 50;
 	const UINT SELECT_COUNT = 2;
+	const UINT MAX_CHANGE_DIR_COUNT = 2;
+
+	enum DirectionType
+	{
+		ROW, COLUMN, DIR_MAX
+	};
 
 public:
 	CardManager();
@@ -27,6 +33,8 @@ private:
 	void CheckCard();
 
 	void RemoveCard(bool result);
+
+	Card* CardBoard(int x, int y);
 	
 private:
 	//vector<Card*> cards;
