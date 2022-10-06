@@ -1,0 +1,185 @@
+﻿  Framework.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Texture.h(15,23): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Texture.h(14,37): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DX2D.cpp
+  ConstBuffer.cpp
+  IndexBuffer.cpp
+  VertexBuffer.cpp
+  CircleCollider.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Collision\CircleCollider.cpp(42,44): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Collider.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Collision\Collider.cpp(34,32): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RectCollider.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Collision\RectCollider.cpp(81,44): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Device.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Device\Device.cpp(44,22): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Device\Device.cpp(45,23): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Camera.cpp
+  Environment.cpp
+  Math.cpp
+  Transform.cpp
+  Clip.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Clip.cpp(60,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Clip.cpp(71,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Clip.cpp(74,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Frame.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Frame.cpp(21,35): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Frame.cpp(24,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Frame.cpp(52,35): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Frame.cpp(55,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Render\Frame.cpp(71,38): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RenderTarget.cpp
+  Texture.cpp
+  PixelShader.cpp
+  Shader.cpp
+  VertexShaer.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Shader\VertexShaer.cpp(102,21): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BinaryReader.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  BinaryWriter.cpp
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\BinaryWriter.cpp(37,18): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\BinaryWriter.cpp(41,65): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\BinaryWriter.cpp(46,18): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\BinaryWriter.cpp(50,66): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Keyboard.cpp
+  Timer.cpp
+  Utility.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3506): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3506): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\Utility.cpp(6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+C:\Users\user\source\repos\DX2D\DX2D\Framework\Utilities\Utility.cpp(6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  tinyxml2.cpp
+  AnimObject.cpp
+  Effect.cpp
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Effect.cpp(15,22): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Effect.cpp(65,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Quad.cpp
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Quad.cpp(60,38): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Quad.cpp(81,55): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Quad.cpp(90,35): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Quad.cpp(93,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682,68): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(829): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,float&,int,int>(_Alloc &,_Objty *const ,float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(840): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,float&,int,int>(_Alloc &,_Objty *const ,float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(822): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Vertex
+          ]
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Basic\Quad.cpp(30): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::vector<Vertex,std::allocator<Vertex>>::emplace_back<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
+  Dog.cpp
+  EffectManager.cpp
+  Card.cpp
+  CardManager.cpp
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(36,20): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(43,33): warning C4267: '초기화 중': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(58,48): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(58,41): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(70,43): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(70,40): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(109,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(111,39): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(112,39): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(265,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(304,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(354,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\source\repos\DX2D\DX2D\GameObject\Puzzle\CardManager.cpp(380,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Bullet.cpp
+  BulletManager.cpp
+  Plane.cpp
+  Button.cpp
+  AnimationScene.cpp
+  CollisionScene.cpp
+  PuzzleScene.cpp
+  RenderTargetScene.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  ShaderScene.cpp
+  ShootingScene.cpp
+  TextureScene.cpp
+  GameManager.cpp
+  코드를 생성하고 있습니다...
+ImGui.lib(imgui_impl_win32.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_impl_win32.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_widgets.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_widgets.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(ImGui.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(ImGui.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_draw.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_draw.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_impl_dx11.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_impl_dx11.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_tables.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_tables.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexImage.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexWIC.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexD3D11.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexUtil.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexConvert.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexCompress.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexMipMaps.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC4BC5.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC6HBC7.obj)' 또는 'C:\Users\user\source\repos\DX2D\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  DX2D.vcxproj -> C:\Users\user\source\repos\DX2D\x64\Debug\DX2D.exe
