@@ -170,24 +170,11 @@
     <ClInclude Include="GameObject\CatchThief\ThiefCard.h" />
     <ClInclude Include="GameObject\CatchThief\ThiefCardManager.h" />
     <ClInclude Include="GameObject\Manager\EffectManager.h" />
-    <ClInclude Include="GameObject\Puzzle\Card.h" />
-    <ClInclude Include="GameObject\Puzzle\CardManager.h" />
     <ClInclude Include="GameObject\UI\Button.h" />
     <ClInclude Include="GameObject\Basic\Quad.h" />
-    <ClInclude Include="GameObject\Character\Dog.h" />
-    <ClInclude Include="GameObject\Shooting\Bullet.h" />
-    <ClInclude Include="GameObject\Shooting\BulletManager.h" />
-    <ClInclude Include="GameObject\Shooting\Plane.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="Scenes\AnimationScene.h" />
     <ClInclude Include="Scenes\CatchingThiefScene.h" />
-    <ClInclude Include="Scenes\CollisionScene.h" />
-    <ClInclude Include="Scenes\PuzzleScene.h" />
-    <ClInclude Include="Scenes\RenderTargetScene.h" />
     <ClInclude Include="Scenes\Scene.h" />
-    <ClInclude Include="Scenes\ShaderScene.h" />
-    <ClInclude Include="Scenes\ShootingScene.h" />
-    <ClInclude Include="Scenes\TextureScene.h" />
     <ClInclude Include="Framework\Shader\Shader.h" />
     <ClInclude Include="System\GameManager.h" />
     <ClInclude Include="targetver.h" />
@@ -226,22 +213,9 @@
     <ClCompile Include="GameObject\Basic\Quad.cpp" />
     <ClCompile Include="GameObject\CatchThief\ThiefCard.cpp" />
     <ClCompile Include="GameObject\CatchThief\ThiefCardManager.cpp" />
-    <ClCompile Include="GameObject\Character\Dog.cpp" />
     <ClCompile Include="GameObject\Manager\EffectManager.cpp" />
-    <ClCompile Include="GameObject\Puzzle\Card.cpp" />
-    <ClCompile Include="GameObject\Puzzle\CardManager.cpp" />
-    <ClCompile Include="GameObject\Shooting\Bullet.cpp" />
-    <ClCompile Include="GameObject\Shooting\BulletManager.cpp" />
-    <ClCompile Include="GameObject\Shooting\Plane.cpp" />
     <ClCompile Include="GameObject\UI\Button.cpp" />
-    <ClCompile Include="Scenes\AnimationScene.cpp" />
     <ClCompile Include="Scenes\CatchingThiefScene.cpp" />
-    <ClCompile Include="Scenes\CollisionScene.cpp" />
-    <ClCompile Include="Scenes\PuzzleScene.cpp" />
-    <ClCompile Include="Scenes\RenderTargetScene.cpp" />
-    <ClCompile Include="Scenes\ShaderScene.cpp" />
-    <ClCompile Include="Scenes\ShootingScene.cpp" />
-    <ClCompile Include="Scenes\TextureScene.cpp" />
     <ClCompile Include="System\GameManager.cpp" />
   </ItemGroup>
   <ItemGroup>

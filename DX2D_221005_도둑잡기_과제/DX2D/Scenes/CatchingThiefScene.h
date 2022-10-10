@@ -12,5 +12,13 @@ public:
 
 private:
 	Quad* bg;
+	Quad* cursor;
+
+	Button* nextTurnBtn;
+	Button* sortBtn;
+	Button* swapBtn;
+
+	Texture* noneCursor;
+	Texture* clickCursor;
 
 };

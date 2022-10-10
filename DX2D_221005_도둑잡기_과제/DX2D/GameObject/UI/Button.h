@@ -9,13 +9,18 @@ protected:
 	};
 
 public:
-	Button(wstring textureFile);
+	Button(wstring textureFile, bool isCard = false);
 	~Button();
 
 	void Update();
 	void Render();
 
+	void ButtonColorUpdate();
+
 	void SetEvent(Event event) { this->event = event; }
+	void SetObjEvent(ObjEvent event) { objEvent = event; }
+
+	void SetObject(void* object) { this->object = object; }
 
 	Collider* GetCollider() { return collider; }
 
@@ -30,6 +35,9 @@ private:
 	Collider* collider;
 
 	Event event = nullptr;
+	ObjEvent objEvent = nullptr;
 
 	bool isDownCheck = false;
+
+	void* object;
 };

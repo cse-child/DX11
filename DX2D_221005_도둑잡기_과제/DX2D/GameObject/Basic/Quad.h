@@ -5,7 +5,10 @@ class Quad : public Transform
 public:
 	Quad(wstring file, Vector2 startUV = Vector2(0, 0),
 		Vector2 endUV = Vector2(1, 1), Vector2 pos = Vector2());
+	Quad(Texture* texture, Vector2 startUV = Vector2(0, 0),
+		Vector2 endUV = Vector2(1, 1), Vector2 pos = Vector2());
 	Quad(Vector2 size, Vector2 pos = Vector2());
+	
 	~Quad();
 
 	void Render();

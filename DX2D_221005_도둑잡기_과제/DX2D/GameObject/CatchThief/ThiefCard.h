@@ -30,7 +30,6 @@ private:
 	float nonePos;
 	float overPos;
 
-	bool isDebugMode = false;
 	bool isSelected = false;
 
 };

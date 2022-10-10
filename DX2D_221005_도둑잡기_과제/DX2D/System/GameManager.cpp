@@ -1,25 +1,12 @@
 #include "Framework.h"
 
-#include "Scenes/TextureScene.h"
-#include "Scenes/ShootingScene.h"
-#include "Scenes/CollisionScene.h"
-#include "Scenes/AnimationScene.h"
-#include "Scenes/ShaderScene.h"
-#include "Scenes/PuzzleScene.h"
-#include "Scenes/RenderTargetScene.h"
 #include "Scenes/CatchingThiefScene.h"
 
 GameManager::GameManager()
 {
+	srand(time(NULL));
 	Create();
 
-	//scene = new TextureScene();
-	//scene = new ShootingScene();
-	//scene = new CollisionScene();
-	//scene = new AnimationScene();
-	//scene = new ShaderScene();
-	//scene = new PuzzleScene();
-	//scene = new RenderTargetScene();
 	scene = new CatchingThiefScene();
 }
 

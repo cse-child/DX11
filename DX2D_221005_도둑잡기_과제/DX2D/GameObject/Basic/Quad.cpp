@@ -20,6 +20,25 @@ Quad::Quad(wstring file, Vector2 startUV, Vector2 endUV, Vector2 pos)
 	Init();
 }
 
+Quad::Quad(Texture* texture, Vector2 startUV, Vector2 endUV, Vector2 pos)
+{
+	this->texture = texture;
+
+	size = (endUV - startUV) * texture->GetSize();
+
+	float left = pos.x - size.x * 0.5f;
+	float right = pos.x + size.x * 0.5f;
+	float top = pos.y + size.y * 0.5f;
+	float bottom = pos.y - size.y * 0.5f;
+
+	vertices.emplace_back(left, top, startUV.x, startUV.y);
+	vertices.emplace_back(right, top, endUV.x, startUV.y);
+	vertices.emplace_back(left, bottom, startUV.x, endUV.y);
+	vertices.emplace_back(right, bottom, endUV.x, endUV.y);
+
+	Init();
+}
+
 Quad::Quad(Vector2 size, Vector2 pos)
 {
 	float left = pos.x - size.x * 0.5f;

@@ -1,7 +1,7 @@
 #include "Framework.h"
 
 ThiefCard::ThiefCard(wstring textureFile)
-	:Button(textureFile), key(textureFile)
+	:Button(textureFile, true), key(textureFile)
 {
 	SetCardNum();
 	SetEvent(bind(&ThiefCard::OnClick, this));

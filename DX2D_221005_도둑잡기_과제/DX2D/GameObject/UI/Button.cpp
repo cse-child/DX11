@@ -1,9 +1,13 @@
 #include "Framework.h"
 
-Button::Button(wstring textureFile)
+Button::Button(wstring textureFile, bool isCard)
 	:Quad(textureFile)
 {
-	collider = new RectCollider({ size.x*0.5f, size.y*3 });
+	if(isCard)
+		collider = new RectCollider({ size.x*0.5f, size.y*3 });
+	else
+		collider = new RectCollider(size);
+
 	collider->SetParent(this);
 }
 
@@ -30,6 +34,10 @@ void Button::Update()
 		{
 			if (event != nullptr)
 				event();
+			if (objEvent != nullptr)
+			{
+				objEvent(object);
+			}
 
 			isDownCheck = false;
 		}
@@ -51,5 +59,23 @@ void Button::Render()
 	if (!isActive) return;
 
 	Quad::Render();
-	//collider->Render();
+
+	if(ThiefCardManager::Get()->IsDebugMode())
+		collider->Render();
+}
+
+void Button::ButtonColorUpdate()
+{
+	switch (state)
+	{
+	case Button::NONE:
+		GetColorBuffer()->Set(noneColor);
+		break;
+	case Button::DOWN:
+		GetColorBuffer()->Set(downColor);
+		break;
+	case Button::OVER:
+		GetColorBuffer()->Set(overColor);
+		break;
+	}
 }

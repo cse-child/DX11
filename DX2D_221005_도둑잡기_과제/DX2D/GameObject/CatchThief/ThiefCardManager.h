@@ -2,6 +2,9 @@
 
 class ThiefCardManager : public Singleton<ThiefCardManager>
 {
+private:
+	const UINT SWAP_COUNT = 30;
+
 public:
 	ThiefCardManager();
 	~ThiefCardManager();
@@ -11,14 +14,28 @@ public:
 
 	void SelectCard(ThiefCard* selectCard);
 
+	void NextTurn();
+	void SortPlayerCards();
+	void SwapCards();
+
+	bool IsDebugMode() { return isDebugMode; }
+
 private:
 	void LoadCardTextures();
 	void CreateCards();
+
 	void HandOutCards();
 	void SetLandomCards(vector<ThiefCard*>& cards, float height, bool isHide = false);
+
 	void CheckSameCardNum();
+	void CheckEraseComputerCard();
 
 	void ComputerDebugMode();
+
+	void BringComputerCard(void* bringCard);
+	
+	void SortComputerCards();
+
 
 private:
 	vector<ThiefCard*> totalCards;
@@ -34,11 +51,6 @@ private:
 
 	UINT totalCardCount = 0;
 
+	bool isDebugMode = false;
+	bool isBringCard = false;
 };
-
-
-// 구현할거
-// 1. 정렬 버튼
-// 2. 턴 끝내기 버튼 
-// 3. 상대방 카드 뽑아오기
-// 4. 컴퓨터 AI 기능 구현

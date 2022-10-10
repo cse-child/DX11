@@ -29,6 +29,7 @@
 #include <map>
 #include <unordered_map>
 #include <functional>
+#include <time.h>
 
 #include <d3d11.h>
 #include <DirectXMath.h>
@@ -59,6 +60,7 @@ typedef XMFLOAT3 Float3;
 typedef XMFLOAT2 Float2;
 typedef XMMATRIX Matrix;
 typedef function<void()> Event;
+typedef function<void(void*)> ObjEvent;
 
 // Framework Header
 #include "Framework/Utilities/Utility.h"
@@ -109,16 +111,7 @@ using namespace GameMath;
 
 #include "GameObject/UI/Button.h"
 
-#include "GameObject/Shooting/Plane.h"
-#include "GameObject/Shooting/Bullet.h"
-#include "GameObject/Shooting/BulletManager.h"
-
-#include "GameObject/Character/Dog.h"
-
 #include "GameObject/Manager/EffectManager.h"
-
-#include "GameObject/Puzzle/Card.h"
-#include "GameObject/Puzzle/CardManager.h"
 
 #include "GameObject/CatchThief/ThiefCard.h"
 #include "GameObject/CatchThief/ThiefCardManager.h"
